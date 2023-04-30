@@ -1,6 +1,7 @@
 {
-  "name": "react-component-library",
+  "name": "@prajwalsharma/react-component-library",
   "version": "1.0.0",
+  "private": false,
   "description": "A React Component Library",
   "main": "build/index.cjs.js",
   "module": "build/index.esm.js",
@@ -11,6 +12,13 @@
   },
   "author": "Prajwal Sharma",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prajwalsharma/react-component-library.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.1.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
