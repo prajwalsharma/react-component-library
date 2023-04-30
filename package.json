@@ -1,6 +1,6 @@
 {
   "name": "@prajwalsharma/react-component-library",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": false,
   "description": "A React Component Library",
   "main": "build/index.cjs.js",
